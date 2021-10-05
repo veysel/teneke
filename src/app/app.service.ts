@@ -16,6 +16,6 @@ export class AppService {
       'Pragma': 'no-cache',
       'Expires': '0'
     });
-    return this.http.get("/assets/config.json", { headers: headers });
+    return this.http.get("./assets/config.json", { headers: headers });
   }
 }
